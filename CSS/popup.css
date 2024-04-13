@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hoverbutton {
+  width: 50px;
+  height: 50px;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  border-radius: 25px;
+  border: 5px, solid, #000000;
+}
+
+.hoverbutton__content {
+  font-size: 1.1rem;
+  visibility: hidden;
+  color: #000000;
+  text-align: left;
+  border-radius: 5px;
+  padding: 35px;
+  position: absolute;
+  /* Ensure that the box is on the tpo of the other conetent */
+  /* Also puts the box below the button */
+  top: 100%;
+  right: -400px;
+  z-index: 1;
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.hoverbutton:hover .hoverbutton__content {
+  visibility: visible;
+}

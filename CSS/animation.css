@@ -1,0 +1,101 @@
+@keyframes arrows {
+  0% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+}
+
+/* Decoration text animation */
+.maingrid-element__decText h3:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.maingrid-element__decText h3:nth-child(2) {
+  animation-delay: 1s;
+}
+.maingrid-element__decText h3:nth-child(3) {
+  animation-delay: 1.5s;
+}
+.maingrid-element__decText h3:nth-child(4) {
+  animation-delay: 2s;
+}
+.maingrid-element__decText h3:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+@keyframes fu {
+  0% {
+    font-variation-settings: "wght" 800, "wdth" 95;
+  }
+  100% {
+    font-variation-settings: "wght" 700, "wdth" 100;
+  }
+}
+
+@keyframes letterspacing {
+  0% {
+    letter-spacing: 0;
+  }
+  100% {
+    letter-spacing: 0.1em;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.scroll h3 span {
+  display: inline-block;
+  animation: wave 1s infinite ease;
+}
+
+.scroll h3 span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.scroll h3 span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.scroll h3 span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.scroll h3 span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.scroll h3 span:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.scroll h3 span:nth-child(6) {
+  animation-delay: 0.6s;
+}

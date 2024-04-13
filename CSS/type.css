@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "NotoSans";
+  src: url("../Type/NotoSans-VariableFont_wdth\,wght.ttf") format("truetype");
+  font-variation-settings: "wght" 400, "wdth" 100;
+  /* weight 100 - 900, width 70 - 100 */
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  src: url("../Type/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+  font-variation-settings: "wght" 400;
+  /*  weight 100 - 900 */
+}
+
+html {
+  font-family: "NotoSans", sans-serif;
+}
+
+h1 {
+  font-size: 15rem;
+  font-weight: 800;
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  font-variation-settings: "wdth" 70;
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: "NotoSansJP", sans-serif;
+  font-variation-settings: "wght" 700;
+  color: #fff;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  padding: 10px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.maingrid-element h1 {
+  font-family: "NotoSansJP", sans-serif;
+  font-variation-settings: "wght" 700;
+  background-color: var(--highlightG);
+  color: #fff;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.maingrid-element h2 {
+  color: #fff;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.maingrid-element__decText h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-variation-settings: "wdth" 80;
+}
+
+.poster-header span h1 {
+  font-variation-settings: "wght" 100, "wdth" 70;
+  animation: none;
+}
+
+.poster-header span h2 {
+  font-variation-settings: "wght" 500, "wdth" 70;
+}
+
+.maingrid-element__header h1 {
+  font-family: "NotoSansJP", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 2rem;
+  text-shadow: none;
+}
+
+.maingrid-element__header h3 {
+  font-family: "NotoSansJP", sans-serif;
+  font-variation-settings: "wght" 750;
+  color: #fff;
+  text-shadow: none;
+}
+
+.maingrid-element__textScroll h1 {
+  font-family: "NotoSansJP", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 15rem;
+  text-shadow: none;
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+}
+
+.stickyContainer:last-of-type
+  .poster
+  .maingrid-element
+  .maingrid-element__textScroll
+  h1 {
+  font-family: "NotoSans", sans-serif;
+  writing-mode: horizontal-tb;
+}
